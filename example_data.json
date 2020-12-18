@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "1901-日治行政區-廳(1900年代)",
+        "Year": "1901",
+        "group": "明治時期",
+        "mapurl": "https://gis.sinica.edu.tw/tileserver/file-exists.php?img=Admin_1901a-png-{z}-{x}-{y}"
+    },
+    {
+        "Name": "1921-日治臺灣堡圖(大正版)-1:20,000",
+        "Year": "1921",
+        "group": "大正時期",
+        "mapurl": "https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1921-jpg-{z}-{x}-{y}"
+    },
+    {
+        "Name": "1930-日治行政區-州廳(1930年代)",
+        "Year": "1930",
+        "group": "昭和時期",
+        "mapurl": "https://gis.sinica.edu.tw/tileserver/file-exists.php?img=Admin_1930a-png-{z}-{x}-{y}"
+    }
+]
