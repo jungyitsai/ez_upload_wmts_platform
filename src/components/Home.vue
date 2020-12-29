@@ -56,16 +56,16 @@
         <button
           type="button"
           class="btn btn-outline-primary mt-2 float-left mr-2"
-          @click="clearSelectedMaps"
-        >
-          Clear Selected Maps
-        </button>
-        <button
-          type="button"
-          class="btn btn-outline-primary mt-2 float-left"
           @click="loadSelectedMaps"
         >
           Load Selected Maps
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-danger mt-2 float-left"
+          @click="clearSelectedMaps"
+        >
+          Clear Loaded Maps
         </button>
       </div>
       <div class="col">
@@ -91,7 +91,7 @@
         </div>
       </div>
     </div>
-
+    <hr />
     <div class="row mt-2 mb-5">
       <div class="col">
         <div id="myMap"></div>
