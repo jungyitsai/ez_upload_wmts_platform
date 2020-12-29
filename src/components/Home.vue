@@ -224,6 +224,12 @@ export default {
       this.updateControlOpacity();
     },
     clearSelectedMaps() {
+      const overlayTileProvidersItems = Object.entries(
+        this.overlayTileProviders,
+      );
+      overlayTileProvidersItems.forEach((item) => {
+        this.myMap.removeLayer(item[1]);
+      });
       this.$refs.mapTable.selected_items = [];
       this.loadSelectedMaps();
     },
